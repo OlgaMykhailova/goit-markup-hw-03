@@ -1,0 +1,224 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --third-text-color: #ffffff;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --third-bg-color: #2f303a;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+
+  font-family: roboto, sans-serif;
+}
+
+/* Убирает подчеркивание у всех ссылок */
+
+.link {
+  text-decoration: none;
+}
+
+/* Убирает точки у немаркированного списка */
+.list {
+  list-style: none;
+}
+
+/* Хедер */
+
+/* Логотип */
+.logo {
+  color: var(--accent-color);
+
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-black {
+  color: var(--secondary-text-color);
+}
+
+/* Навигация */
+.site-nav,
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link {
+  color: var(--secondary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .link.current,
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: var(--accent-color);
+}
+.header-contacts .link {
+  color: var(--primary-text-color);
+}
+
+/* Главная страница */
+
+/* Герой */
+.hero {
+  background-color: var(--third-bg-color);
+}
+
+.main-index-title {
+  color: var(--third-text-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button-main,
+.button-secondary {
+  cursor: pointer;
+  font-family: roboto, sans-serif;
+}
+.button-secondary {
+  color: var(--third-text-color);
+  background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+.button-secondary:hover,
+.button-secondary:focus {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-bg-color);
+}
+
+/* Заголовки h2 */
+
+.sec-index-title {
+  color: var(--secondary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+/* Секция Особенности */
+
+.features .third-index-title {
+  color: var(--secondary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-text {
+  color: var(--primary-text-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* Секция Чем мы занимаемся */
+
+/* Секция Наша команда */
+.command {
+  background-color: var(--secondary-bg-color);
+}
+.command .third-index-title {
+  color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.command-text {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* Страница Портфолио */
+
+/* Секция Наши проекты*/
+
+/* Кнопки */
+.button-main {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-bg-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+.button-main:hover,
+.button-main:focus {
+  color: var(--third-text-color);
+  background-color: var(--accent-color);
+}
+/* Список проектов */
+
+.portf-title {
+  color: var(--secondary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portf-text {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+.link:hover .portf-title,
+.link:hover .portf-text,
+.link:focus .portf-title,
+.link:focus .portf-text {
+  color: var(--accent-color);
+}
+
+/* Футер */
+
+.logo-white {
+  color: var(--third-text-color);
+}
+.footer {
+  background-color: var(--third-bg-color);
+}
+.footer-address {
+  color: var(--third-text-color);
+}
+.footer-contacts {
+  color: var(--footer-text-color);
+}
+
+.footer-address:hover,
+.footer-address:focus,
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
